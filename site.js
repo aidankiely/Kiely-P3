@@ -33,9 +33,9 @@ const vue_app = Vue.createApp({
             // This holds your movies.json data.
             movies: [],
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
-         title: "IMDB's and Aidans Top 8 Movies",
-         owner: "Aidans",
-         github: "https://github.com/aidankiely/Kiely-P3"
+         title: "IMDB's and Aidan's Top 8 Movies",
+         owner: "Aidans's",
+         github: "https://github.com/aidankiely"
       }
     },
       methods: {
@@ -82,7 +82,16 @@ const vue_app = Vue.createApp({
 
             return dateArray[1] + " " + dateArray[2] + ", " + dateArray[0]
       },
-      
+      posterClick(index) {
+           if (this.movies[index].posterindex < this.movies[index].posters.length - 1) {
+            this.movies[index].posterindex++} else {this.movies[index].posterindex = 0;}
+           },
+      timeText(minutes) {
+            let hour = minutes / 60 
+            let remainder = minutes % 60
+           return Math.trunc(hour) + "h" + remainder + "m"
+
+      },
       }
 })
 
