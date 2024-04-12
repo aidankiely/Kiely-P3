@@ -68,5 +68,51 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Jaws",
+            "iscore": 8.9,
+            "rating": "PG-13",
+            "runtime": 125,
+            "released": [1993, 6, 20],
+            "country": "USA",
+            "posters": ["img/Jaws.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0073195/",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 700,
+            "dislikes": 4,
+            "posterindex": 0
       }
+      ,
+      {
+            "title": "Superbad",
+            "iscore": 8.9,
+            "rating": "R",
+            "runtime": 113,
+            "released": [1993, 6, 20],
+            "country": "USA",
+            "posters": ["img/super.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0829482/fullcredits",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 850,
+            "dislikes": 4,
+            "posterindex": 0
+      }
+      ,
+      {
+            "title": "Interstellar",
+            "iscore": 11,
+            "rating": "R",
+            "runtime": 169,
+            "released": [1993, 6, 20],
+            "country": "USA",
+            "posters": ["img/inter.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0816692/",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 700,
+            "dislikes": 0,
+            "posterindex": 0
+      }
+     
+   
 ]
